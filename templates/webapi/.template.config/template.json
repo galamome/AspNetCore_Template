@@ -1,0 +1,9 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Guillaume ALAMOME",
+    "classifications": [ "Common", "WebApi" ],
+    "identity": "Galamome.WebApiTemplate.CSharp",
+    "name": "Galamome Web Api",
+    "shortName": "galamomewebapi",
+    "sourceName": "ReadFromMqttAPI"
+  }

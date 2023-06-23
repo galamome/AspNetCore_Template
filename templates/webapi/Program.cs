@@ -41,11 +41,11 @@ builder.Services.AddControllers()
     .AddJsonOptions(options =>
                 options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
 
-const string API_TITLE = "Read From Mqtt API";
+const string API_TITLE = "ReadFromMqttAPI";
 const string API_VERSION = "0.0.1";
 const string API_DESCRIPTION = "API for information read from MQTT";
 const string API_MAINTAINER_NAME = "Guillaume ALAMOME";
-const string API_MAINTAINER_EMAIL = "guillaume.alamome@airbus.com";
+const string API_MAINTAINER_EMAIL = "guillaume.alamome@gmail.com";
 
 Activity.DefaultIdFormat = ActivityIdFormat.W3C;
 
