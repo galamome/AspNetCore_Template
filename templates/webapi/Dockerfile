@@ -43,7 +43,7 @@ ENV ASPNETCORE_URLS=http://+:8080
 
 ############################
 # Create a group and user with ID 1000
-RUN addgroup --gid 1000 -S app && adduser --uid 1000 -S app -G app
+RUN addgroup --system --gid 1000 app && adduser --system --uid 1000 --gid 1000 app
 
 # Create the work dir
 # Set the permissions as 'root'
