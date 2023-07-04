@@ -66,8 +66,10 @@ if (!String.IsNullOrEmpty(otlpUri))
 
 // Azure Active Directory authentication
 // Configuration comes from appsettings.json
+/*
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
+*/
 
 builder.Services.AddAuthorization();
 

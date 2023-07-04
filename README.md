@@ -28,8 +28,8 @@ See : https://learn.microsoft.com/en-us/dotnet/core/tools/custom-templates
 ```bash
 # Package ID
 PACKAGE_ID=Galamome.Utility.Templates
-# Package version, comming from 'PackageVersion' of the CSPROJ
-PACKAGE_VERSION=1.0.2
+# Package version, coming from 'PackageVersion' of the CSPROJ
+PACKAGE_VERSION=1.0.5
 dotnet new --install ${OUTPUT_DIRECTORY}/${PACKAGE_ID}.${PACKAGE_VERSION}.nupkg
 ```
 
